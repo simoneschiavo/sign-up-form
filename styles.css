@@ -165,6 +165,7 @@ button {
   border: 1px solid #E5E7EB;
   box-shadow: 2px 2px 8px 0 #E5E7EB;
   border-radius: 5px;
+  padding-left: 10px;
 }
 
 .form-input > input:focus {
