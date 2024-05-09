@@ -175,6 +175,13 @@ button {
   border: 1px solid red;
 }
 
+.validation-error {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+  display: none;
+}
+
 .form-input > button {
   background-color: #596D48;
   color: #fff;
