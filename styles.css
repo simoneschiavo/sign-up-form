@@ -108,15 +108,27 @@ a {
   padding: 50px;
   display: flex;
   flex-direction: column;
+  background-color: #F9FAFB;
+}
+
+.intro {
+  padding-left: 10px;
+  font-weight: bold;
+}
+
+.intro > * {
+  padding-bottom: 15px;
 }
 
 .form-row {
-  display: flex;
+  display: flex;;
 }
 
 .form-row > * {
   flex-basis: 40%;
   padding: 10px;
+  display: flex;
+  flex-direction: column;
 }
 
 .information {
