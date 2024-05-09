@@ -105,4 +105,26 @@ a {
 
 .right-section {
   flex: 2 1 0;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-row {
+  display: flex;
+}
+
+.form-row > * {
+  flex-basis: 40%;
+  padding: 10px;
+}
+
+.information {
+  padding-left: 10px;
+}
+
+.information > a {
+  color: #596D48;
+  font-weight: bold;
+  text-decoration: none;
 }
