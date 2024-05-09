@@ -64,6 +64,10 @@ a {
   color: white;
 }
 
+button {
+  all: unset;
+}
+
 /* Lef Section */
 
 .left-section {
@@ -111,7 +115,7 @@ a {
 }
 
 .intro {
-  padding: 50px 60px;
+  padding: 50px 70px;
   font-weight: bold;
 }
 
@@ -145,8 +149,18 @@ a {
   box-shadow: 0px 4px 3px #E5E7EB;
 }
 
+.form-input > button {
+  background-color: #596D48;
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px 0 #E5E7EB;
+}
+
 .information {
-  padding-left: 60px;
+  padding-left: 70px;
 }
 
 .information > a {
